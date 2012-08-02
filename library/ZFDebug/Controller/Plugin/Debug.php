@@ -58,7 +58,8 @@ class ZFDebug_Controller_Plugin_Debug extends Zend_Controller_Plugin_Abstract
      * @var array
      */
     public static $standardPlugins = array(
-        'Cache', 
+        'Cache',
+        'Doctrine2',
         'Html', 
         'Database', 
         'Exception', 
